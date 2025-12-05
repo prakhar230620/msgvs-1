@@ -7,9 +7,7 @@ const nextConfig = {
     unoptimized: true,
   },
   experimental: {
-    turbopack: {
-      root: process.cwd(),
-    },
+    // turbopack options removed as they were causing validation errors
   },
 }
 
