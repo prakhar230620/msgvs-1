@@ -1,0 +1,45 @@
+--- COLUMNS ---
+id: uuid
+page_name: text
+content: jsonb
+updated_by: uuid
+updated_at: timestamp with time zone
+---------------
+--- SAMPLE DATA ---
+{
+  "id": "33f63f91-6929-4218-9a33-cb96f3926522",
+  "page_name": "home",
+  "content": {
+    "hero": {
+      "title": "Empowering Communities, Transforming Lives",
+      "cta_link": "/about",
+      "cta_text": "Learn More",
+      "subtitle": "We work tirelessly to create sustainable change in communities across the globe through education, healthcare, and economic empowerment."
+    },
+    "stats": [
+      {
+        "label": "Communities Served",
+        "value": "150+"
+      },
+      {
+        "label": "Lives Impacted",
+        "value": "50,000+"
+      },
+      {
+        "label": "Active Volunteers",
+        "value": "500+"
+      },
+      {
+        "label": "Years of Service",
+        "value": "15+"
+      }
+    ],
+    "mission": {
+      "title": "Our Mission",
+      "description": "To empower underserved communities through sustainable programs that promote education, health, and economic independence."
+    }
+  },
+  "updated_by": null,
+  "updated_at": "2025-11-30T13:36:41.006Z"
+}
+-------------------
